@@ -2,7 +2,7 @@
   "schema_version": 2,
   "week": "2026-W32",
   "source": "external_news",
-  "crawled_at": "2026-08-03T03:46:41.564196Z",
+  "crawled_at": "2026-08-03T03:46:25.929070Z",
   "crawl_window": {
     "since": "2026-07-27T00:00:00Z",
     "until": "2026-08-03T00:00:00Z"
@@ -1047,7 +1047,7 @@
     }
   ],
   "metadata": {
-    "run_id": "30782427691",
+    "run_id": "30782430176",
     "source_count": 5,
     "source_config_checksum": "181ab609bc9c3ba3273dec222afe66e1877b6c65151f8dd81bfdafd0ec5b197f",
     "schema_checksum": "9e41c155fe80733dcd357087bb668ecf695ea2d2be0b0eb564d10fda1907be1b",
@@ -1070,7 +1070,7 @@
       {
         "source": "github_blog",
         "host": "github.blog",
-        "started_at": "2026-08-03T03:46:41.583610Z",
+        "started_at": "2026-08-03T03:46:25.937604Z",
         "timeout_seconds": 15,
         "attempts": 1,
         "total_articles": 6,
@@ -1079,13 +1079,13 @@
         "success": true,
         "error_class": "",
         "error_message": "",
-        "ended_at": "2026-08-03T03:46:41.966308Z",
-        "duration_seconds": 0.383
+        "ended_at": "2026-08-03T03:46:26.565646Z",
+        "duration_seconds": 0.628
       },
       {
         "source": "hugging_face_blog",
         "host": "huggingface.co",
-        "started_at": "2026-08-03T03:46:41.579801Z",
+        "started_at": "2026-08-03T03:46:25.936324Z",
         "timeout_seconds": 15,
         "attempts": 1,
         "total_articles": 5,
@@ -1094,13 +1094,13 @@
         "success": true,
         "error_class": "",
         "error_message": "",
-        "ended_at": "2026-08-03T03:46:42.113373Z",
-        "duration_seconds": 0.534
+        "ended_at": "2026-08-03T03:46:26.462059Z",
+        "duration_seconds": 0.526
       },
       {
         "source": "mit_technology_review",
         "host": "www.technologyreview.com",
-        "started_at": "2026-08-03T03:46:41.580715Z",
+        "started_at": "2026-08-03T03:46:25.936733Z",
         "timeout_seconds": 15,
         "attempts": 1,
         "total_articles": 10,
@@ -1109,13 +1109,13 @@
         "success": true,
         "error_class": "",
         "error_message": "",
-        "ended_at": "2026-08-03T03:46:41.852081Z",
-        "duration_seconds": 0.271
+        "ended_at": "2026-08-03T03:46:26.188167Z",
+        "duration_seconds": 0.251
       },
       {
         "source": "nvidia_blog",
         "host": "blogs.nvidia.com",
-        "started_at": "2026-08-03T03:46:41.579151Z",
+        "started_at": "2026-08-03T03:46:25.935899Z",
         "timeout_seconds": 15,
         "attempts": 1,
         "total_articles": 4,
@@ -1124,13 +1124,13 @@
         "success": true,
         "error_class": "",
         "error_message": "",
-        "ended_at": "2026-08-03T03:46:42.250384Z",
-        "duration_seconds": 0.671
+        "ended_at": "2026-08-03T03:46:26.489062Z",
+        "duration_seconds": 0.553
       },
       {
         "source": "techcrunch",
         "host": "techcrunch.com",
-        "started_at": "2026-08-03T03:46:41.578308Z",
+        "started_at": "2026-08-03T03:46:25.935225Z",
         "timeout_seconds": 15,
         "attempts": 1,
         "total_articles": 20,
@@ -1139,8 +1139,8 @@
         "success": true,
         "error_class": "",
         "error_message": "",
-        "ended_at": "2026-08-03T03:46:41.803501Z",
-        "duration_seconds": 0.225
+        "ended_at": "2026-08-03T03:46:26.131812Z",
+        "duration_seconds": 0.197
       }
     ],
     "source_reuse_summary": [
@@ -1185,9 +1185,9 @@
         "source_id": "github_blog",
         "action": "refreshed",
         "artifact_path": "data/raw/2026-W32-external-news.json",
-        "original_run_id": "30782427691",
-        "original_crawled_at": "2026-08-03T03:46:41.564196Z",
-        "evaluated_at": "2026-08-03T03:46:41.564196Z",
+        "original_run_id": "30782430176",
+        "original_crawled_at": "2026-08-03T03:46:25.929070Z",
+        "evaluated_at": "2026-08-03T03:46:25.929070Z",
         "date": "2026-08-03",
         "week": "2026-W32",
         "crawl_window": {
@@ -1196,7 +1196,7 @@
         },
         "source_config_checksum": "181ab609bc9c3ba3273dec222afe66e1877b6c65151f8dd81bfdafd0ec5b197f",
         "schema_checksum": "9e41c155fe80733dcd357087bb668ecf695ea2d2be0b0eb564d10fda1907be1b",
-        "artifact_checksum": "7a2f7cc2176ec0b3ed2494515ac5b156cfdaf17772cec113f29651bfc3b7c1b4",
+        "artifact_checksum": "ca2e41fd4efb7446d27a4cb6d3c0e5db0b61e04129b371496dd59a5873947cee",
         "content_checksum": "9553358794744d018de99e45eea918ebf1792be8c72dfa4438605a97e8b8a542",
         "reasons": []
       },
@@ -1204,9 +1204,9 @@
         "source_id": "hugging_face_blog",
         "action": "refreshed",
         "artifact_path": "data/raw/2026-W32-external-news.json",
-        "original_run_id": "30782427691",
-        "original_crawled_at": "2026-08-03T03:46:41.564196Z",
-        "evaluated_at": "2026-08-03T03:46:41.564196Z",
+        "original_run_id": "30782430176",
+        "original_crawled_at": "2026-08-03T03:46:25.929070Z",
+        "evaluated_at": "2026-08-03T03:46:25.929070Z",
         "date": "2026-08-03",
         "week": "2026-W32",
         "crawl_window": {
@@ -1215,7 +1215,7 @@
         },
         "source_config_checksum": "181ab609bc9c3ba3273dec222afe66e1877b6c65151f8dd81bfdafd0ec5b197f",
         "schema_checksum": "9e41c155fe80733dcd357087bb668ecf695ea2d2be0b0eb564d10fda1907be1b",
-        "artifact_checksum": "7a2f7cc2176ec0b3ed2494515ac5b156cfdaf17772cec113f29651bfc3b7c1b4",
+        "artifact_checksum": "ca2e41fd4efb7446d27a4cb6d3c0e5db0b61e04129b371496dd59a5873947cee",
         "content_checksum": "21f67a9890fa48b3d49fd42e9ce65c210c3ab4360c464e615fa6998de54bd92a",
         "reasons": []
       },
@@ -1223,9 +1223,9 @@
         "source_id": "mit_technology_review",
         "action": "refreshed",
         "artifact_path": "data/raw/2026-W32-external-news.json",
-        "original_run_id": "30782427691",
-        "original_crawled_at": "2026-08-03T03:46:41.564196Z",
-        "evaluated_at": "2026-08-03T03:46:41.564196Z",
+        "original_run_id": "30782430176",
+        "original_crawled_at": "2026-08-03T03:46:25.929070Z",
+        "evaluated_at": "2026-08-03T03:46:25.929070Z",
         "date": "2026-08-03",
         "week": "2026-W32",
         "crawl_window": {
@@ -1234,7 +1234,7 @@
         },
         "source_config_checksum": "181ab609bc9c3ba3273dec222afe66e1877b6c65151f8dd81bfdafd0ec5b197f",
         "schema_checksum": "9e41c155fe80733dcd357087bb668ecf695ea2d2be0b0eb564d10fda1907be1b",
-        "artifact_checksum": "7a2f7cc2176ec0b3ed2494515ac5b156cfdaf17772cec113f29651bfc3b7c1b4",
+        "artifact_checksum": "ca2e41fd4efb7446d27a4cb6d3c0e5db0b61e04129b371496dd59a5873947cee",
         "content_checksum": "bc1038d9cd9329a98f106df4440828219cbc2e62840b6a158867d33cebeb524b",
         "reasons": []
       },
@@ -1242,9 +1242,9 @@
         "source_id": "nvidia_blog",
         "action": "refreshed",
         "artifact_path": "data/raw/2026-W32-external-news.json",
-        "original_run_id": "30782427691",
-        "original_crawled_at": "2026-08-03T03:46:41.564196Z",
-        "evaluated_at": "2026-08-03T03:46:41.564196Z",
+        "original_run_id": "30782430176",
+        "original_crawled_at": "2026-08-03T03:46:25.929070Z",
+        "evaluated_at": "2026-08-03T03:46:25.929070Z",
         "date": "2026-08-03",
         "week": "2026-W32",
         "crawl_window": {
@@ -1253,7 +1253,7 @@
         },
         "source_config_checksum": "181ab609bc9c3ba3273dec222afe66e1877b6c65151f8dd81bfdafd0ec5b197f",
         "schema_checksum": "9e41c155fe80733dcd357087bb668ecf695ea2d2be0b0eb564d10fda1907be1b",
-        "artifact_checksum": "7a2f7cc2176ec0b3ed2494515ac5b156cfdaf17772cec113f29651bfc3b7c1b4",
+        "artifact_checksum": "ca2e41fd4efb7446d27a4cb6d3c0e5db0b61e04129b371496dd59a5873947cee",
         "content_checksum": "93b32dbfa612b09574086430ec60d16dc7ce5876f58ea07e61063a39a30062e2",
         "reasons": []
       },
@@ -1261,9 +1261,9 @@
         "source_id": "techcrunch",
         "action": "refreshed",
         "artifact_path": "data/raw/2026-W32-external-news.json",
-        "original_run_id": "30782427691",
-        "original_crawled_at": "2026-08-03T03:46:41.564196Z",
-        "evaluated_at": "2026-08-03T03:46:41.564196Z",
+        "original_run_id": "30782430176",
+        "original_crawled_at": "2026-08-03T03:46:25.929070Z",
+        "evaluated_at": "2026-08-03T03:46:25.929070Z",
         "date": "2026-08-03",
         "week": "2026-W32",
         "crawl_window": {
@@ -1272,7 +1272,7 @@
         },
         "source_config_checksum": "181ab609bc9c3ba3273dec222afe66e1877b6c65151f8dd81bfdafd0ec5b197f",
         "schema_checksum": "9e41c155fe80733dcd357087bb668ecf695ea2d2be0b0eb564d10fda1907be1b",
-        "artifact_checksum": "7a2f7cc2176ec0b3ed2494515ac5b156cfdaf17772cec113f29651bfc3b7c1b4",
+        "artifact_checksum": "ca2e41fd4efb7446d27a4cb6d3c0e5db0b61e04129b371496dd59a5873947cee",
         "content_checksum": "911bb9fb69004118ac6eb6c77d09140ca8d2f804384a23d0173559bd365aacf3",
         "reasons": []
       }
@@ -1289,7 +1289,7 @@
     "github_links_found": 11,
     "dedupe_count": 0,
     "errors": [],
-    "artifact_checksum": "d467acec34069791d7cfbf48afa1978bb898ff145130ba7f0f99229bb62354b7",
+    "artifact_checksum": "00e8723231ba3f5359a94a15a3bec7b38fb0b85f621bcec8f7d07d109556146e",
     "same_day_reuse": "not_reused",
     "source_refresh_policy": "reuse-same-day",
     "source_reuse_decisions": [

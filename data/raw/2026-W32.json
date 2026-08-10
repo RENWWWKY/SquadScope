@@ -1,6 +1,6 @@
 {
   "week": "2026-W32",
-  "crawled_at": "2026-08-03T03:41:44Z",
+  "crawled_at": "2026-08-03T03:41:45Z",
   "new_repos": [
     {
       "id": 1316527318,
@@ -11080,11 +11080,11 @@
     "cache_hits": 0,
     "stale_cache_hits": 0,
     "rate_limit_limit": 5000,
-    "rate_limit_remaining": 4603,
-    "rate_limit_reset": 1785732100,
+    "rate_limit_remaining": 4597,
+    "rate_limit_reset": 1785732094,
     "rate_limit_resource": "core",
     "partial_failures": [],
-    "run_id": "30782427691",
+    "run_id": "30782430176",
     "crawl_window": {
       "since": "2026-07-27",
       "until": "2026-08-03"
@@ -11111,6 +11111,6 @@
     "snapshot_path": "data/snapshots/2026-W32-stars.json",
     "source_refresh_policy": "reuse-same-day",
     "crawler_code_sha": "29adfee4cc7f1b3ba5c60a82d8db2ae867eed2cb664915d4b4ac75f6f4a5b76e",
-    "artifact_checksum": "39ace33ae26edef103fdd48d60b19494398e110e5f8a962de4375f37dcbd0f4f"
+    "artifact_checksum": "d2abd7f4cedb7a1ffb5949135131b19e5e3ccd03c9b1f3984abea573f06feae4"
   }
 }
